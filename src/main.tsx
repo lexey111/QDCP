@@ -11,12 +11,10 @@ const router = createBrowserRouter([
 	{
 		path: '/profile',
 		element: <ProfilePage/>,
-		index: true
 	},
 	{
 		path: '/about',
 		element: <AboutPage/>,
-		index: true
 	},
 	{
 		path: '*', // <-- for any not specified routes (404)
