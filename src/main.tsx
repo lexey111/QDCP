@@ -5,6 +5,8 @@ import './index.css'
 import {createBrowserRouter, RouterProvider,} from 'react-router-dom'
 import {AboutPage, HomePage, ProfilePage} from "./pages"
 
+const baseName = import.meta.env.VITE_SITE_BASE
+
 const router = createBrowserRouter([
 	{
 		path: '/profile',
@@ -21,7 +23,7 @@ const router = createBrowserRouter([
 		element: <HomePage/>,
 		index: true
 	},
-])
+], {basename: baseName || ''})
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
