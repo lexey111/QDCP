@@ -26,6 +26,10 @@ export const HomePage = () => {
 				diam nisi, pharetra id mollis ac, placerat ac tortor. Duis sagittis ex massa, nec rutrum massa tempor
 				vitae. Aliquam volutpat tincidunt ante. Fusce vitae lorem mi.
 			</p>
+
+			<p>
+				Version: 1.0
+			</p>
 		</>
 	)
 }
