@@ -1,11 +1,12 @@
 import './AppMenu.css'
-import {NavLink, redirect, useSearchParams} from "react-router-dom"
+import {NavLink, useNavigate, useSearchParams} from "react-router-dom"
 import {useEffect} from "react"
 
 const baseName = import.meta.env.VITE_SITE_BASE
 
 export const AppMenu = () => {
 	const [searchParams] = useSearchParams();
+	const navigate = useNavigate();
 
 	useEffect(() => {
 		if (searchParams?.get('path')?.includes(baseName)) {
@@ -13,7 +14,7 @@ export const AppMenu = () => {
 
 			if (redirectUrl) {
 				console.log('redirect', baseName + '/' + redirectUrl)
-				redirect(baseName + '/' + redirectUrl);
+				navigate(baseName + '/' + redirectUrl);
 			}
 		}
 	}, []);
