@@ -13,8 +13,7 @@ export const AppMenu = () => {
 			const redirectUrl = searchParams?.get('path')?.split('/').pop()
 
 			if (redirectUrl) {
-				console.log('redirect', baseName + '/' + redirectUrl)
-				navigate(baseName + '/' + redirectUrl);
+				navigate('/' + redirectUrl);
 			}
 		}
 	}, []);
