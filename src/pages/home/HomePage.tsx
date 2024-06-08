@@ -30,6 +30,10 @@ export const HomePage = () => {
 			<p>
 				Version: 1.2
 			</p>
+			<p>
+				<a href="https://lexeykoshkin.medium.com/quick-and-dirty-github-pages-hosting-24b3ba7f9603"
+				   target={'_blank'}>Medium article</a>
+			</p>
 		</>
 	)
 }

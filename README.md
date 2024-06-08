@@ -2,7 +2,7 @@
 
 ## Description
 
-A link to Medium will be added here later.
+[Medium article](https://lexeykoshkin.medium.com/quick-and-dirty-github-pages-hosting-24b3ba7f9603)
 
 ## Installation
 

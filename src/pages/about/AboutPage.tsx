@@ -43,6 +43,10 @@ export const AboutPage = () => {
 				ullamcorper nec nisi. Nam dignissim diam lacus, id tempus est iaculis in. Fusce mattis libero velit. Ut
 				molestie, nisi ut auctor mollis, nisi felis feugiat mauris, sit amet ultrices ipsum odio a massa.
 			</p>
+			<p>
+				<a href="https://lexeykoshkin.medium.com/quick-and-dirty-github-pages-hosting-24b3ba7f9603"
+				   target={'_blank'}>Medium article</a>
+			</p>
 		</>
 	)
 }
