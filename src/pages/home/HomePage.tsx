@@ -28,7 +28,7 @@ export const HomePage = () => {
 			</p>
 
 			<p>
-				Version: 1.0
+				Version: 1.1
 			</p>
 		</>
 	)
